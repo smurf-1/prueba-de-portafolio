@@ -13,9 +13,7 @@ body{
 /* Aqui empiezan los estilos de la galeria de fotos*/
 .galeria {
     padding: 40px 40px 40px 40px;
-    background-color: grey;
-    border: 10px solid;
-    border-color: black;
+    background-color: rgb(255, 255, 255);
     height: 1400px;
     display: flex;
     flex-wrap: wrap; /* Permite que las columnas se ajusten en pantallas pequeñas */
@@ -55,16 +53,41 @@ body{
 .animate-up img {
     animation: move-up-infinite 6s linear infinite;
 }
+/* Aqui terminan los estilos de la galeria de fotos*/
 
-
-
+/* Aqui empiezan los estilos seccion de biografia*/
 .quiensoy{
-    background-color: grey;
-    border: 10px solid;
-    border-color: black;
     height: 700px;
 
 }
+.who-i-am {
+    padding: 200px 20px;
+    margin-top: -80px;
+    background: var(--background);
+    background: url("./img/fondo1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    position: relative;
+    width: auto;
+}
+
+.who-i-am__content {
+    width: 80%;
+}
+
+.who-i-am__title {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.who-i-am__description {
+    font-size: 24px;
+}
+
+/* Aqui empiezan los estilos seccion de biografia*/
+
 .valores{
     background-color: grey;
     border: 10px solid;
